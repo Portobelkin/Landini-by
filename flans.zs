@@ -223,7 +223,7 @@ recipes.addShaped(<flansmod:dwStockDetachment>,
 [[badsteel, flint, badsteel]]);
 recipes.addShaped(<flansmod:dwGenSingleFire>,
 [[badsteel, iron, badsteel]]);
-recipes.addShaped(<flansmod:dwGenAutoFire>,
+recipes.addShaped(<flansmod:dwGenAutoFire>,А
 [[badsteel, badsteel, badsteel]]);
 recipes.addShaped(<flansmod:dwGenMeleeStock>,
 [[badsteel, <flansmod:dwMidSteelIngot>, badsteel]]);
@@ -393,6 +393,10 @@ recipes.addShaped(<flansmod:dwOverwatchAmmo>,
 [[badsteel, brassammo, gunpowder],
 [brassammo, brassingot, null],
 [null, null, null]]);
+recipes.addShaped(<flansmod:dwWolfstedtAmmo>,
+[[badsteel, poisonammo, gunpowder],
+[brassammo, brassingot, brassdust],
+[null, null, gunpowder]]);
 recipes.addShaped(<flansmod:dwWolfstedtPoisonAmmo>,
 [[badsteel, poisonammo, spider],
 [brassammo, brassingot, brassdust],
@@ -465,7 +469,7 @@ recipes.addShaped(<flansmod:dwCinderfireAPAmmo>,
 [[apammo, apammo, flint],
 [apammo, brasscog, flint],
 [badsteel, null, null]]);
-recipes.addShaped(<flansmod:dwCinderfireAPAmmo>,
+recipes.addShaped(<flansmod:dwCinderfireAmmo>,
 [[brassammo, brassammo, flint],
 [brassammo, brasscog, flint],
 [badsteel, null, null]]);
@@ -723,6 +727,10 @@ recipes.addShaped(<flansmod:dwPaKatAmmo>,
 [[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
 [<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
 [null, null, badsteel]]);
+recipes.addShaped(<flansmod:dwPaKat3Ammo>,
+[[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
+[badsteel, badsteel, compos]]);
 recipes.addShaped(<flansmod:dwSf94Ammo>,
 [[<flansmod:dwMidSteelIngot>, brassammo, badsteel],
 [badsteel, brassammo, badsteel],
